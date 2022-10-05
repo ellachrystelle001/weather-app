@@ -1,0 +1,49 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.box {
+    height: auto;
+    margin-right: 20px;
+}
+
+.column {
+    height: 100vh;
+    position: relative;
+}
+
+.select {
+    position: absolute;
+    top: 17px;
+    right: 50px;
+}
+
+.first-txt {
+    position: absolute;
+    top: 17px;
+    left: 50px;
+    color: white;
+}
+
+.second-txt {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: white;
+}
+
+.third-txt {
+    position: absolute;
+    top:110px;
+    left: 50px;
+    color: white;
+}
+
+.displayLocation {
+    height: 100vh;
+}
